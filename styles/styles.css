@@ -1,0 +1,477 @@
+.heading {
+    max-width: 85%;
+    margin: auto;
+    padding: 2.5%;
+}
+.navitems {
+    flex-grow: 1;
+    justify-content: space-evenly;
+}
+.navitem {
+justify-content: space-evenly ;
+color: white;
+}
+
+body {
+    background-color: black;
+}
+
+header{
+    border: 1px solid #fff;
+    border-top: none;
+    border-radius: 0px 0px 45px 45px;
+}
+.banner-continer {
+    display: flex;
+    max-width: 85%;
+    margin: auto;
+    padding: 4% 0 6% ;
+}
+.nsl {
+    background: #fff;
+    display: inline-block;
+    padding: 10px 45px;
+    font-size: 20px;
+    border-radius: 10px 
+}
+.innerheadings {
+    color: #fff;
+    font-size: 56px;
+}
+.explorepath {
+    text-transform: uppercase;
+    padding: 15px 23px;
+    margin-top: 12px;
+    background: #F8DA64
+}
+
+.subimage {
+    top: -61px;
+    position: absolute;
+}
+.banner-main-img {
+    position: relative;
+}
+.explore {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -14%);
+    background: #624BFF;
+    border-radius: 50%;
+    padding: 30px;
+    cursor: pointer
+}
+
+
+
+.coursesheading {
+    text-align: center;
+}
+.courselist {
+    margin: 25px;
+}
+
+.coursefilteritem {
+    border: 1px solid #C4C4C4;
+    border-radius: 4px;
+    margin-right: 26px;
+    padding: 5px 20px;
+    font-size: 13px;
+    cursor: pointer;
+    color: #fff;
+}
+.coursefilter {
+    display: flex;
+    justify-content: center;
+}
+.coursescards {
+    display: flex;
+    float: left;
+    width: 720px;
+    margin-left: auto;
+}
+.eachcardenrolled {
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 84%;
+    border-radius: 45px;
+    padding: 10px 14px;
+    margin: auto;
+    position: absolute;
+    z-index: 1;
+    top: -20px;
+    left: 20px;
+}
+
+.eachcardcontent {
+    background: #212121;
+    position: relative;
+    padding: 22px 10px 10px;
+    border-radius: 0 0 12px 12px;
+}
+.cardcontenttitle{
+    color: #fff;
+    font-weight: 800;
+    margin-bottom: 7px;
+    margin-top: 31px;
+    height: 46px;
+}
+.eachcardcontentarea {
+    color: #d9d9d9;
+    font-weight: 100;
+    margin-bottom: 16px;
+    font-size: 14px;
+    height: 124px;
+}
+.enroll-btn-container {
+    text-align: right;
+    padding-right: 12px;
+    padding-bottom: 11px;
+}
+.card-btn {
+    border: 1px solid #F8DA64;
+    transition: all .25s ease-in;
+    cursor: pointer;
+    color: #f8da64;
+    font-size: 15px;
+    padding: 5px 18px;
+}
+.whyus {
+    color: #d9d9d9;
+    font-weight: 100;
+    margin-top: 10px;
+    margin-bottom: 62px;
+}
+
+.whyuscards {
+    max-width: 88%;
+    margin: auto;
+}
+
+.whyuscardsContainer {
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.whyuseachcard{
+    background: #212121;
+    color: #d9d9d9;
+    text-align: center;
+    padding: 30px 55px 18px;
+    border-radius: 10px;
+    margin-bottom: 23px;
+    width: 279px;
+}
+
+.standout {
+    background: #212121;
+    max-width: 97%;
+    margin: 4% auto;
+    padding: 7%;
+}
+
+.standoutHeading {
+    text-align: center;
+}
+
+.standoutline {
+    width: 41px;
+    display: inline-block;
+    height: 3px;
+    background: #F8DA64;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+.standouttext {
+    color: #fff;
+    font-weight: 200;
+}
+
+.standoutcards {
+    margin-top: 69px;
+}
+.standoutcontiner {
+    display: flex;
+}
+
+.standouteachcard{
+    text-align: center;
+    border: 0.5px solid #FFFFF0;
+    border-radius: 15px;
+    padding: 17px 13px 13px;
+}
+
+.standoutcardtitle {
+    color: ivory;
+    margin-top: 19px;
+}
+
+.standoutcardcontent {
+    color: ivory;
+    font-weight: 100;
+    height: 123px;
+}
+.hashincludefor {
+    padding: 1% 0 2% 8%;
+}
+.hashincludeforheading {
+    color: #fff;
+    font-size: 39px;
+    margin: 13px 0 20px;
+}
+
+.hashincludeforcontiner {
+    display: flex;
+    max-width: 720px;
+}
+.hashincludefortraining {
+    background: #D4E1FF;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 8px;
+    color: #0b7077;
+    margin-bottom: 6px;
+}
+.hashincludeforpoints {
+    padding-top: 22px;
+}
+.hashincludeforeachpoint {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.aboutus {
+    padding-top: 5%;
+    background-color: #212121;
+}
+.aboutusline {
+    background: #F8DA64;
+    width: 47px;
+    display: inline-block;
+    height: 4px;
+}
+
+.aboutusheading {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 100;
+    vertical-align: middle;
+    margin-left: 22px;
+    text-align: center;
+    
+}
+
+.aboutuscontent{
+    color: #d9d9d9;
+    font-weight: 100;
+    max-width: 80%;
+    line-height: 31px;
+}
+
+.testimonial {
+   
+    padding: 6%;
+}
+.testimonialheading {
+    text-align: center;
+    padding-bottom: 4%;
+}
+.aboutusnumbers {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 4% 0;
+}
+
+.aboutuseachnumber {
+    color: #fff;
+    text-align: center;
+}
+
+.studentscontiner {
+    display: flex;
+}
+
+.eachstudent{
+    
+    
+    display: flex;
+    color: #fff;
+    margin-left: 27px;
+}
+.studentcontiner {
+    border: 1px solid #fff;
+    border-radius: 16px;
+    padding: 11px;
+    height: 340px;
+}
+
+.studentinfo{
+    margin-left: 16px;
+    margin-top: 6px;
+}
+.studentfeedback {
+    color: #d9d9d9;
+    font-weight: 100;
+    margin-left: 26px;
+    max-width: 90%;
+    margin-top: 15px;
+}
+
+.offerperiod{
+    
+    background: url(time-bg.50c998895fad7be4.svg) #624BFF;
+    max-width: 90%;
+    margin: 10% auto auto;
+    border-radius: 15px;
+    color: #fff;
+    padding: 3%;
+    background-position: 126px 127px;
+    background-repeat: no-repeat;
+}
+.offerheading{
+    font-size: 44px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.eachoffer {
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+.apply-btn {
+    background: #fff;
+    color: #0b7077;
+    border-radius: 9px;
+}
+
+footer {
+    background: url(../assets/footer-bg.cc00989cacc2122a.svg);
+    background-size: cover;
+    color: #0b7077;
+    padding: 7% 7% 5%;
+}
+
+.footerrow {
+    display: flex;
+}
+.OurTeam {
+    padding: 5%;
+}
+.ourteamtext {
+    color: white;
+    font-weight: 100;
+    max-width: 40%;
+    margin: auto;
+    margin-bottom: 65px;
+}
+.eachteammember {
+    margin-bottom: 5%;
+    position: relative;
+}
+.teammembersinfo {
+    position: absolute;
+    color: whitesmoke;
+    top: 65px;
+    left: 45px;
+}
+.membername {
+    font-size: 22px;
+    margin-bottom: 2px;
+    color: #fff;
+}
+.memberinfo {
+    text-align: center;
+    font-size: 13px;
+    color: #fff;
+}
+
+.frontendbanner {
+    background-color: #212121;
+    max-width: 90%;
+    margin: auto auto 78px;
+    color: ivory;
+    padding: 20px 31px 31px;
+}
+
+.enroll-btn {
+    text-align: right;
+    margin: 20px;
+}
+.fecontent-contianer {
+    height: 320px;
+    border: .5px solid #fff;
+    border-radius: 9px;
+    padding: 30px;
+    background: #3442D9;
+}
+.redirect-block {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.redirect-btn {
+    color: #f8da63;
+    font-size: 19px;
+}
+.guidencebanner {
+    text-align: center;
+    color: #fff;
+    padding: 6% 0;
+}
+
+.CG-continer{
+    color: #fff;
+    background: #212121;
+    padding: 20px;
+}
+.eachquestionblock {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.name-icon{
+    background: #d2e6e4;
+    align-self: baseline;
+    color: #000;
+    padding: 8px 11px;
+    border-radius: 50px;
+    margin-top: 9px;
+}
+.answer-block{
+    background: #000;
+    padding: 4px 10px;
+}
+.answer{
+    max-width: 98%;
+    padding: 5px 15px;
+    font-weight: 200;
+    border-left: 3px solid #3CAA56;
+}
+.query-block{
+    background: #212121;
+    padding: 14px;
+    color: #fff;
+}
+.eachformblock {
+    margin-top: 20px;
+}
+.input {
+    border: none;
+    background: #212121;
+    border-bottom: 1px solid white;
+    border-radius: 0px;
+    width: 280px;
+    color: #fff;
+}
+.btn-send {
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid #F7DA64;
+    color: #F7DA64;
+    padding: 6px 55px;
+}
